@@ -1,0 +1,23 @@
+body {background-color: rgb(255, 255, 255);
+background-image: url("./dwlly-BnSPXJT4Ti0-unsplash\ \(1\).jpg");}
+
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Sevillana", cursive;
+}
+h2 {
+   color: rgb(255, 255, 255);
+   font-size: 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+   color: rgb(255, 255, 255);
+}
