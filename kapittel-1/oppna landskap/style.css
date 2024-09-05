@@ -1,0 +1,23 @@
+body{
+    background-image: url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+h1 {
+font-family: "suse";
+}
+p{
+    font-family: "roboto", system-ui;
+    background-color: rgba(136, 145, 152, 0.397);
+    width: 500px;
+    padding: 5px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+img{
+
+}
+a{
+
+}
