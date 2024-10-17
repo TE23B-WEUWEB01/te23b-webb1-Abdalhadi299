@@ -1,4 +1,13 @@
+/* FÄRGPALETT*/
+:root {
+    /* CSS HEX */
+--space-cadet: #22223bff;
+--ultra-violet: #4a4e69ff;
+--rose-quartz: #9a8c98ff;
+--pale-dogwood: #c9ada7ff;
+--isabelline: #f2e9e4ff;
 
+}
 /* Layoutens utseende */
 body {
     background-color: rgb(255, 255, 255);

@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+body {
+    background-image: url(./bilder/0003869~large.jpg);
+    color: #fff;
+    font-family: "Patrick Hand", cursive;
+
+}
+.kontainer {
+    width: 800px;
+    padding: 40px;
+
+}
+.box {
+    padding: 50px;
+
+}
+h1{
+    font-family: "Goldman", sans-serif;
+
+}
+h2{
+
+}
+img{
+    width: 100%;
+
+}
+p{
+
+}
+
