@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Modak&family=Oswald:wght@200..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Funnel+Display:wght@300..800&display=swap');
 
 /* Enkel CSS-reset */
 html {
@@ -13,72 +12,74 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 
-
-
 /* Layoutens utseende */
-
 body {
-    background-color: #a4ac86;
 
 }
-
 .kontainer {
- width: 900px;
- padding: 20px;
- margin: auto;
- background-color: rgba(147, 102, 57, 0.499);
+    background-color: #a0a2a7;
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Menyns utseende*/ 
-
-ul {
- display: flex;
- list-style-type: none;
- justify-content: space-between;
- padding: 20px;
+/* Manyn utseende */
+.kontainer ul {
+    font-family: "Funnel Display", sans-serif;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0 20px;
 }
-
-li {
+.kontainer ul li {
 
 }
-
-a {
+.kontainer ul a{
     text-decoration: none;
-    background-color:#414833ff;;
-    border-radius: 3px;
     color: white;
+    background-color: #6c819c;
     padding: 10px;
+    border-radius: 3px;
     width: 140px;
     display: inline-block;
+    box-shadow: 3px 3px 0 #cac7c7;
     text-align: center;
+}
+.kontainer ul a:hover {
+    background-color: #0b246e;
+}
 
-
+.kontainer ul .aktiv {
+    background-color: #0b246e;
 }
 
 /* Innehållets utseende */
-
-h1 {
-  Font-family: "Modak", system-ui;
-  
+.kontainer h1 {
+    font-family: "Chicle", serif;
+    color: #1d2d44;
+    text-align: center;
+}
+.kontainer p {
+    margin: 20px auto;
+}
+.kontainer .tack {
+    font-style: italic;
+}
+.kontainer .tack a {
+    text-decoration: none;
+    color: #1d2d44;
 }
 
-p{
-    font-family: "Oswald", sans-serif;
+.kontainer figure {
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
 }
-
-.tack {
-
-}
-
-figure {
-
-}
-
-img {
+.kontainer figure img {
     width: 100%;
-
 }
-
-figcaption {
+.kontainer figure figcaption {
 
 }
