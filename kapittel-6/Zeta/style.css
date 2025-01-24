@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -13,36 +15,74 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 body{
     background-image: url("./bilder/image-134.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
-.konatiner{
-   
-    
+.kontainer{
+   width: 1000px;
+   margin: auto;
 }
 /* sidhuvud  */
 .meny{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    font-family: "Oswald", serif;
+    
 
 }
 .meny a {
 
 }
 .meny img{
-
+    width: 150px;
 }
 /* sidinnehåll */
 .sida{
+    background-color: #F9F8F1;
+    font-size: large;
+    padding: 20px;
 
+    
 }
-.produkter{
+.prudokter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
 
 }
 .rutor{
+    text-align: center;
+    
+    height: 368px;
 
+}
+.rutor img{
+    width: 100%;
+    
 }
 h2{
-
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    
+    
 }
-p{
+p.text{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 20px;
+    }
 
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px ; 
+    text-align: center;
 }
+ 
 
