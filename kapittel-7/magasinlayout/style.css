@@ -1,0 +1,68 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* holy grail layouten */
+.kontainer {
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+        "sidhuvud sidhuvud sidhuvud"
+        "artikel artikel artikel"
+        "artikel-3 artikel-3 artikel-3"
+        "sidfot sidfot sidfot";
+    gap: 20px;
+}
+
+header {
+    background-color: yellow;
+    grid-area: sidhuvud;
+    min-height: 10vh;
+}
+
+nav {
+    background-color: blue;
+    grid-area: meny;
+}
+
+article {
+    background-color: bisque;
+    grid-area: artikel;
+}
+
+aside {
+    background-color: rgb(15, 15, 27);
+    grid-area: sidebar;
+}
+
+footer {
+    background-color: rgb(172, 103, 46);
+    grid-area: sidfot;
+    min-height: 10vh;
+}
