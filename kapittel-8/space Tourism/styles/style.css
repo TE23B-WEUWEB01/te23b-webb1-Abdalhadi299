@@ -1,0 +1,15 @@
+
+
+
+
+.wander .vimeo iframe {
+    width: 100px;
+    height: 56.25vw;
+    min-height: 100vh;
+    min-width: 230vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
